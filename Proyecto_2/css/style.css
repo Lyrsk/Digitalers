@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+@font-face {   
+    src: url(../fuentes/BodoniFLF-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+    font-family: miFuente;
+}
+/* #################### General #################### */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* #################### Nav #################### */
+.activo {
+    text-decoration: underline;
+}
+nav {
+    width: 100%;
+    height: 40px;
+}
+nav a {
+    text-decoration: none;
+    margin: 2px;
+    color: black;
+}
+nav img {
+    width: 2%;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+}
+/* #################### Header #################### */
+#encabezado {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#encabezado div {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#encabezado h1 {
+    font-weight: 300;
+    font-size: 2em;
+ /*   margin: 0; */
+}
+#encabezado h1 span {
+    display: block;
+    font-family: miFuente;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+    color: #b45008;
+}
+/* #################### Main #################### */
+.nosotros h2 {
+    font-family: miFuente;
+    font-style: italic;
+    font-size: 2em;
+    margin: 0;
+    color: #e8bf65;
+}
+.nosotros p {
+    font-size: 1.2em;
+}
+.nosotros {
+    background-color:#b45008;
+}
+.division {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 2px;
+}
+.division div {
+    width: 50%;
+    /*color: white; */
+} 
+.division div img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+main {
+    width: 100%;
+}
+article {
+    width: 60%;
+    padding: 1em;
+}
+h3 {
+    font-family: miFuente;
+    font-style: italic;
+    font-size: 3em;
+    color: #b45008;
+}
+h4 {
+    font-size: 1.4em;
+    color: #e8bf65;
+    border-bottom: 1px dotted #b45008;
+}
+/* #################### Footer #################### */
+footer {
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: #b45008;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+}

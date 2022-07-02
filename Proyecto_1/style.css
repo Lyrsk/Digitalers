@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+    
+}
+body {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.encolumnar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid gray;
+}
+
+.encolumnar article {
+    width: 47%;
+}
+
+header.encolumnar {
+    border-bottom: none;
+    align-items: flex-end;
+}
+
+.contenedor {
+    width: 100%;
+    height: 30%;
+}
+/* #################### Imágenes ####################  */
+#img-servicios {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#img-wapas {
+    width: 100%;
+    margin-right: 10em;
+}
+
+aside img {
+    text-align: center;
+    height: auto;
+    width: 20%;
+}
+/* #################### Nav ####################  */
+nav {
+    background-color: #FCEE21;
+    border-radius: 20px;
+    height: 3em;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav h1 {
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+a {
+     display: inline-block;
+}
+
+nav a {
+    margin-left: 20px;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* #################### Títulos ####################  */
+.wapas, h1 strong {
+    font-family: 'Coiny', cursive;
+}
+
+.grande {
+    font-size: 80px;
+}
+
+#titulo {
+    font-size: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h2, h3 {
+    background-color: #FCEE21;
+    display: inline;  
+}
+
+h2, h3, .item {
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    display: inline;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* #################### Resaltadores especiales ####################  */
+
+.item {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCEE21;
+    
+}
+
+#servicio-item-especial{
+    width: 8.4cm;
+}
+.item-resaltado-p {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FCEE21;
+    border-radius: 10px;
+    width: 7.6cm;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* #################### Formulario ####################  */
+form {
+    margin: auto;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+span {
+    color: red;
+}
+
+input {
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1.5px solid #202020
+
+}
+
+input:focus{
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1.5px solid #e4e43d;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1.5px solid #202020
+}
+
+#boton {
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+#boton:hover {
+    background-color: #FCEE21;
+    color: rgb(29, 29, 29);
+}
+/* #################### Aside ####################  */
+aside {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+/* #################### Footer ####################  */
+footer {
+    background-color: #FCEE21;
+    border-radius: 10px;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 1em;
+}
+
+footer h2 {
+    margin-left: 10px;
+    font-size: 33px;
+}
+
+footer a {
+    color: #7A7A7A;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: white;
+}
