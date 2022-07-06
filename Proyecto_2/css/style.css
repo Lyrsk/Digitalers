@@ -1,3 +1,4 @@
+/* #################### Fuentes #################### */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
 @font-face {   
@@ -25,6 +26,9 @@ nav a {
     text-decoration: none;
     margin: 2px;
     color: black;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 nav img {
     width: 2%;
@@ -62,40 +66,6 @@ nav img {
     color: #b45008;
 }
 /* #################### Main #################### */
-.nosotros h2 {
-    font-family: miFuente;
-    font-style: italic;
-    font-size: 2em;
-    margin: 0;
-    color: #e8bf65;
-}
-.nosotros p {
-    font-size: 1.2em;
-}
-.nosotros {
-    background-color:#b45008;
-}
-.division {
-    width: 100%;
-    padding: 1rem;
-    display: flex;
-    margin-bottom: 2px;
-}
-.division div {
-    width: 50%;
-} 
-.division div img {
-    width: 80%;
-    margin: auto;
-    display: block;
-    border-radius: 10px / 20px;
-    box-shadow: 1px 3px 10px black;
-} 
-.division article {
-    width: 46%;
-    padding: 1em;
-    float: left;
-}
 main {
     width: 100%;
 }
@@ -111,6 +81,68 @@ h4 {
     border-bottom: 1px dotted #b45008;
     text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5);
 }
+/* ---Section nosotros --- */
+.nosotros {
+    background-color:#b45008;
+}
+.nosotros h2 {
+    font-family: miFuente;
+    font-style: italic;
+    font-size: 2em;
+    margin: 0;
+    color: #e8bf65;
+}
+.nosotros p {
+    font-size: 1.2em;
+}
+.nosotros .grilla {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 200px 200px;
+}
+.grilla div {
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grilla div:first-child {
+    background-position: -140px 0 px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(../img/gym-01.JPG);
+}
+.grilla div:nth-child(2) {
+    background-image: url(../img/gym-02.JPG);
+}
+.grilla div:nth-child(3) {
+    background-image: url(../img/gym-03.JPG);
+}
+/* --- Section division --- */
+.division {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 2px;
+}
+.division article {
+    width: 46%;
+    padding: 1em;
+    float: left;
+}
+.division div {
+    width: 100%;
+} 
+.division div img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px / 20px;
+    box-shadow: 1px 3px 10px black;
+} 
+.division img:hover {
+    opacity: 0.5;
+}
 /* #################### Footer #################### */
 footer {
     width: 100%;
@@ -124,4 +156,7 @@ footer {
 footer ul {
     margin: 0;
     padding: 0;
+}
+footer ul:first-of-type, footer p:first-child {
+    font-weight: bold;
 }
